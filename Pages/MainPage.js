@@ -43,7 +43,7 @@ export class MainPage {
 
       this.renderUsers(container, data.response.items);
     } catch (err) {
-      container.innerHTML = `<p class="text-danger">❌ Ошибка: ${err.message}</p>`;
+      container.innerHTML = `<p class="text-danger"> Ошибка: ${err.message}</p>`;
     }
   }
 
