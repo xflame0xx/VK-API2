@@ -1,6 +1,6 @@
 // router.js
-import { MainPage } from "../pages/MainPage.js";
-import { UserPage } from "../pages/UserPage.js";
+import { MainPage } from "../Pages/MainPage.js";
+import { UserPage } from "../Pages/UserPage.js";
 
 export class Router {
   constructor(root) {
